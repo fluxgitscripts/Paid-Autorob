@@ -308,7 +308,7 @@ task.spawn(function()
                 AutoRobTab:AddSlider({
                     Name = "Teleport Speed",
                     Min = 50,
-                    Max = 160,
+                    Max = 180,
                     Default = tweenSpeed,
                     Increment = 5,
                     ValueName = "Speed",
@@ -323,7 +323,7 @@ task.spawn(function()
                 AutoRobTab:AddSlider({
                     Name = "Police Abort Distance",
                     Min = 5,
-                    Max = 55,
+                    Max = 100,
                     Default = policeAbort,
                     Increment = 1,
                     ValueName = "Studs",
@@ -338,7 +338,7 @@ task.spawn(function()
                 AutoRobTab:AddSlider({
                     Name = "Player Movement Speed",
                     Min = 10,
-                    Max = 25,
+                    Max = 50,
                     Default = plrTweenSpeed,
                     Increment = 1,
                     ValueName = "Speed",
